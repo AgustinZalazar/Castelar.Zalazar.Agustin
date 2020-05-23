@@ -1,0 +1,106 @@
+﻿body {
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    -webkit-font-smoothing: antialiased;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+
+.card button {
+    color: #6a2026;
+}
+.card {
+    border: 1px solid #6a202657;
+}
+#accordion{
+    width: 100% !important;
+}
+
+.card-body{
+    text-align: left;
+}
+
+.navbar {
+    height: 100% !important;
+    border-top: 3px solid #744044;
+    padding-top: 0px;
+}
+
+.nav-link:hover {
+    color: #811b23 !important;
+}
+
+#logo {
+    width: 20%;
+    font-size: 25px;
+    float: left;
+    margin-top: 35px;
+}
+
+#logo img {
+   display: block;
+   float: left;
+   height: 60px;
+   margin-top: -10px;
+   margin-right: 10px;
+   animation: palpitar infinite 30s linear;
+}
+
+.brand {
+    display: block;
+    margin: 0px;
+    float: left;
+}
+
+
+#navbarNavDropdown {
+    margin-top: 21px;
+    font-size: 18px;
+}
+
+.jumbotron {
+    background: rgb(103,34,39);
+    background: linear-gradient(90deg, rgba(103,34,39,1) 0%, rgba(106,32,38,1) 24%, rgba(74,12,17,1) 66%);
+    color:white;
+}
+
+.btn-color-uai {
+    background: rgb(103,34,39);
+    color: white;
+}
+
+.center {
+    width: 75%;
+    margin: 0px auto;
+}
+
+#footer {
+    background: #f7f7f7;
+    width: 100%;
+    height: 70px;
+    line-height: 65px;
+    color: #444;
+}
+
+#footer p {
+  margin: 0px;
+  padding: 0px;
+}
+
+.body-container {
+    min-height: 500px;
+}
