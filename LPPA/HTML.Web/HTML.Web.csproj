@@ -142,6 +142,7 @@
     <Content Include="Views\Ejercicios\Form1.cshtml" />
     <Content Include="Views\Ejercicios\Form2.cshtml" />
     <Content Include="Views\Ejercicios\Form3.cshtml" />
+    <Content Include="Views\Ejercicios\ConceptosBasicos4.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

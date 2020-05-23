@@ -19,7 +19,13 @@ textarea {
     max-width: 280px;
 }
 
+ul {
+    list-style: circle;
+}
 
+ul a {
+    color: #6a2026;
+}
 .card button {
     color: #6a2026;
 }
