@@ -92,6 +92,7 @@
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\estilos.css" />
     <Content Include="Content\Site.css" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
@@ -104,13 +105,14 @@
     <Content Include="Scripts\jquery-3.4.1.slim.min.js" />
     <Content Include="Scripts\modernizr-2.8.3.js" />
     <Content Include="Web.config" />
-    <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="Views\Shared\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\CssController.cs" />
     <Compile Include="Controllers\EjerciciosController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
-    <Compile Include="Controllers\Html_CssController.cs" />
+    <Compile Include="Controllers\HtmlController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -131,7 +133,7 @@
     <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Scripts\jquery-3.4.1.slim.min.map" />
     <Content Include="Scripts\jquery-3.4.1.min.map" />
-    <Content Include="Views\Html_Css\Html_Css.cshtml" />
+    <Content Include="Views\Html\HtmlView.cshtml" />
     <Content Include="Views\Ejercicios\ConceptosBasicos1.cshtml" />
     <Content Include="Views\Ejercicios\ConceptosBasicos2.cshtml" />
     <Content Include="Views\Ejercicios\ConceptosBasicos3.cshtml" />
@@ -143,6 +145,15 @@
     <Content Include="Views\Ejercicios\Form2.cshtml" />
     <Content Include="Views\Ejercicios\Form3.cshtml" />
     <Content Include="Views\Ejercicios\ConceptosBasicos4.cshtml" />
+    <Content Include="Views\Css\Css.cshtml" />
+    <Content Include="Views\Ejercicios\ComoSeUsa1.cshtml" />
+    <Content Include="Views\Ejercicios\ComoSeUsa2.cshtml" />
+    <Content Include="Views\Ejercicios\ComoSeUsa3.cshtml" />
+    <Content Include="Views\Ejercicios\Selectores1.cshtml" />
+    <Content Include="Views\Ejercicios\Selectores2.cshtml" />
+    <Content Include="Views\Ejercicios\Selectores3.cshtml" />
+    <Content Include="Views\Ejercicios\DiseñoFijo.cshtml" />
+    <Content Include="Views\Ejercicios\DiseñoElastico.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -154,6 +165,7 @@
     <Folder Include="App_Data\" />
     <Folder Include="img\" />
     <Folder Include="Models\" />
+    <Folder Include="Views\Home\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

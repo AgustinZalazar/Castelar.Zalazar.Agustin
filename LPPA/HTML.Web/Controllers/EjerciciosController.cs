@@ -64,5 +64,44 @@ namespace HTML.Web.Controllers
         {
             return View();
         }
+
+        public ActionResult ComoSeUsa1()
+        {
+            return View();
+        }
+
+        public ActionResult ComoSeUsa2()
+        {
+            return View();
+        }
+
+        public ActionResult ComoSeUsa3()
+        {
+            return View();
+        }
+
+        public ActionResult Selectores1()
+        {
+            return View();
+        }
+        public ActionResult Selectores2()
+        {
+            return View();
+        }
+
+        public ActionResult Selectores3()
+        {
+            return View();
+        }
+
+        public ActionResult DiseñoElastico()
+        {
+            return View();
+        }
+
+        public ActionResult DiseñoFijo()
+        {
+            return View();
+        }
     }
 }

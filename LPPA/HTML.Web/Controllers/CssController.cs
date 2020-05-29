@@ -6,15 +6,15 @@ using System.Web.Mvc;
 
 namespace HTML.Web.Controllers
 {
-    public class Html_CssController : Controller
+    public class CssController : Controller
     {
-        // GET: Html_Css
+        // GET: Css
         public ActionResult Index()
         {
             return View();
         }
 
-        public ActionResult Html_Css()
+        public ActionResult Css()
         {
             return View();
         }

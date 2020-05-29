@@ -1,0 +1,62 @@
+﻿@{
+    ViewBag.Title = "Css";
+}
+    <div id="accordion">
+        <div class="card">
+            <div class="card-header" id="headingOne">
+                <h5 class="mb-0">
+                    <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        Como se usa
+                    </button>
+                </h5>
+            </div>
+
+            <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                <div class="card-body">
+                    <ul>
+                        <li><a href="~/Ejercicios/ComoSeUsa1">Como se usa 1</a></li>
+                        <li><a href="~/Ejercicios/ComoSeUsa2">Como se usa 2</a></li>
+                        <li><a href="~/Ejercicios/ComoSeUsa3">Como se usa 3</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-header" id="headingTwo">
+                <h5 class="mb-0">
+                    <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        Selectores
+                    </button>
+                </h5>
+            </div>
+            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                <div class="card-body">
+                    <ul>
+                        <li><a href="~/Ejercicios/Selectores1">Selectores 1</a></li>
+                        <li><a href="~/Ejercicios/Selectores2">Selectores 2</a></li>
+                        <li><a href="~/Ejercicios/Selectores3">Selectores 3</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-header" id="headingThree">
+                <h5 class="mb-0">
+                    <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        Maquetacion
+                    </button>
+                </h5>
+            </div>
+            <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                <div class="card-body">
+                    <ul>
+                        <li><a href="~/Ejercicios/DiseñoFijo">Diseño fijo</a></li>
+                        <li><a href="~/Ejercicios/DiseñoElastico">Diseño elastico</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
